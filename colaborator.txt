@@ -6,4 +6,8 @@ halo halo
 changes·.·.·.·
 =======
 halo halo
+<<<<<<< HEAD
 >>>>>>> 26a781beead398346b3d483f64360cc76d081d34
+=======
+dodalem 3 linijke
+>>>>>>> 3cab556abb21fb177036b80765bf4177d95e5462
