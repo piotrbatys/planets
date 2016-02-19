@@ -1,5 +1,9 @@
 halo halo
+<<<<<<< HEAD
 
 
 
 changes·.·.·.·
+=======
+halo halo
+>>>>>>> 26a781beead398346b3d483f64360cc76d081d34
