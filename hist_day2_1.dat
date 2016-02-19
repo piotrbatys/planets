@@ -1,0 +1,299 @@
+    1  java -version
+    2  rpm -ivh jdk-8u5-linux-x64.rpm 
+    3  sudo apt-get install rpm
+    4  exit
+    5  tar -zxvf vmd-1.9.1.bin.LINUXAMD64.opengl.tar.gz 
+    6  cd vmd-1.9.1/
+    7  su
+    8  ./configure LINUXAMD64
+    9  cd ./src/
+   10  make install
+   11  sudo make install
+   12  vmd
+   13  sudo apt-get install default-jdk
+   14  exit
+   15  rpm -ivh open64-5.0-0.x86_64.rpm 
+   16  sudo apt-get install build-essential 
+   17  glibc
+   18  openf90
+   19  fortran
+   20  sudo apt-get install gfortran
+   21  exit
+   22  java -version 
+   23  gfort
+   24  ff
+   25  gfort
+   26  gfortran
+   27  gcc
+   28  xmgrace
+   29  sudo apt-get install xmgrace
+   30  sudo apt-get install grace
+   31  xmgrace 
+   32  gnuplot
+   33  tail
+   34  exit
+   35  cd ./Pulpit/
+   36  evince \[Ubuntu-pomoc\]\ Przewodnik\ Ubuntu\ 12.04\ LTS\ Precise\ Pangolin.pdf 
+   37  sudo add-apt-repository ppa:nilarimogard/webupd8
+   38  sudo apt-get update
+   39  sudo apt-get install ap-hotspot 
+   40  sudo ap-hotspot configure
+   41  sudo ap-hotspot start
+   42  exit
+   43  ls
+   44  ls -a
+   45  sudo gedi /etc/ssh/ssh_config 
+   46  sudo gedit /etc/ssh/ssh_config 
+   47  ssh piotr@Antec
+   48  ssh -p 22  piotr@Antec
+   49  ssh -p 22  piotr@192.168.1.103
+   50  ssh -p 4321  piotr@192.168.1.103
+   51  ls
+   52  ssh -p 4321  piotr@192.168.1.103
+   53  la
+   54  cd /home/piotr/
+   55  ssh-keygen -t rsa
+   56  cd .ssh/
+   57  ls -l
+   58  ssh-copy-id -p 4321 piotr@192.168.1.103
+   59  ssh-copy-id piotr@192.168.1.103 -p 4321
+   60  ssh-copy-id piotr@192.168.1.103
+   61  exit
+   62  ssh piotr@192.168.1.103
+   63  cd ./ssh
+   64  ssh piotr@192.168.1.103
+   65  scp piotr@192.168.1.103:/LENOVO/file2 ./Pulpit/
+   66  scp piotr@192.168.1.103:LENOVO/file2 ./Pulpit/
+   67  cd _build/
+   68  cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+   69  make
+   70  sudo make install  
+   71  sudo ldconfig
+   72  cmake --version
+   73  mkdir build
+   74  cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+   75  exit
+   76  cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+   77  g_dens
+   78  vmd --version
+   79  cmake
+   80  sud apt-get install cmake
+   81  sudo apt-get install cmake
+   82  cmake
+   83  gcc
+   84  ls
+   85  cd gromacs-5.0.6/
+   86  cd build/
+   87  cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+   88  cmake
+   89  mkdir _build
+   90  cd _b
+   91  cd _build/
+   92  cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+   93  sudo apt-get install cmake
+   94  cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+   95  sudo make
+   96  sudo make install  
+   97  cmake --version
+   98  cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+   99  sudo apt-get uninstal cmake
+  100  sudo apt-get uninstall cmake
+  101  sudo apt-get remove cmake
+  102  uname -a
+  103  sudo apt-get install git
+  104  git
+  105  sudo apt-get install git
+  106  sudo apt-get update
+  107  sudo apt-get install git
+  108  nano
+  109  python
+  110  sudo geit .bashrc 
+  111  sudo gedit .bashrc 
+  112  export PATH=/home/piotr/anaconda3/bin:$PATH
+  113  sudo gedit .bashrc 
+  114  bash Anaconda3-2.5.0-Linux-x86_64.sh 
+  115  bash Anaconda-
+  116  bash Anaconda3-2.5.0-Linux-x86_64.sh 
+  117  cd data-shell/
+  118  cd molecules/
+  119  ls
+  120  wc -l *.p
+  121  wc -l *.pdb
+  122  wc -l *.pdb > dlugosci.txt
+  123  wc < dlugosci.txt 
+  124  wc -l *
+  125  wc -l < cubane.pdb 
+  126  sort -r dlugosci.txt 
+  127  cat dlugosci.txt 
+  128  sort -g dlugosci.txt 
+  129  sort -n dlugosci.txt 
+  130  sort -n dlugosci.txt > sorted.txt
+  131  cat sorted.txt 
+  132  head -1 sorted.txt 
+  133  wc -l *.pdb | sort -n | head -1
+  134  tail -1 sorted.txt 
+  135  wc -l *.pdb | sort -n | head -2 | tail -1
+  136  date
+  137  wc -l *.pdb | sort -n | head -2 | tail -1
+  138  wc -l *.pdb | sort -n | head -2 | sort -r | head -1
+  139  wc -l *.pdb | sort -n | head -2 | sort -n | head -1
+  140  wc -l *.pdb | sort -n | head -2 | sort -r | head -1
+  141  sort --help
+  142  wc -l *.pdb | sort -n | head -2 | sort | head -1
+  143  history 2 > second.line.sh
+  144  nano second.line.sh 
+  145  cat second.line.sh 
+  146  bash second.line.sh 
+  147  cd ..
+  148  ls
+  149  cd writing/
+  150  ls
+  151  cat haiku.txt 
+  152  grep Rodos haiku.txt 
+  153  grep the haiku.txt 
+  154  grep the haiku.txt | wc -l
+  155  grep -i the haiku.txt | wc -l
+  156  grep -i the haiku.txt
+  157  grep -i -w the haiku.txt
+  158  grep --help
+  159  find old/ -name "*.txt"
+  160  find . -name "*.txt"
+  161  find .. -name "*.txt"
+  162  find . -name "*.txt"
+  163  grep the `find . -name "*.txt"`
+  164  grep -c the `find . -name "*.txt"`
+  165  grep daughter `find . -name "*.txt"`
+  166  grep -n daughter `find . -name "*.txt"`
+  167  ipython notebook
+  168  sudo apt-get install ipython
+  169  ipython notebook
+  170  sudo apt-get install ipython
+  171  history > hist1.dat
+  172  sudo reboot
+  173  cd
+  174  sudo apt-get install ipython
+  175  ipython notebook
+  176  sudo apt-get install ipython-notebook 
+  177  ipython notebook
+  178  bg
+  179  ipython notebook &
+  180  cv
+  181  bg
+  182  ls
+  183  cat notebok.ipynb 
+  184  ipython notebook 
+  185  ls
+  186  cd data/
+  187  ls
+  188  cat inflammation-01.csv 
+  189  gedit inflammation-01.csv 
+  190  clear
+  191  ls
+  192  cd ../
+  193  ls
+  194  cat notebok.ipynb 
+  195  matplotlib
+  196  matplot
+  197  sudo apt-get install python-m
+  198  sudo apt-get install python-matplotlib
+  199  sudo reboot
+  200  ls
+  201  mkdir pyth
+  202  cd pyth/
+  203  ls
+  204  ipython notebook
+  205  sudo apt-get install python-matplotlib
+  206  ls
+  207  python
+  208  ls
+  209  ls data/
+  210  find . "norm"
+  211  find . norm
+  212  find . "norm"
+  213  find .
+  214  find . -name *norm*
+  215  cat inflammation_01_norm_2.csv 
+  216  wc -l inflammation_01_norm_2.csv 
+  217  wc -l data/inflammation_01_norm_2.csv 
+  218  wc -l data/inflammation_01_norm.csv 
+  219  wc -l data/inflammation-01_norm.csv 
+  220  wc data/inflammation-01_norm.csv 
+  221  clear
+  222  cat inflammation-01_norm_2.csv 
+  223  cat data/inflammation-01_norm.csv 
+  224  python
+  225  eog wykres.png 
+  226  ipython notebook
+  227  git --version 
+  228  git config user.name "Piotr.Batys"
+  229  git config --global user.name "Piotr.Batys"
+  230  git config --global user.email "ncbatys@cyf-kr.edu.pl"
+  231  git config --global color.ui 'auto'
+  232  git config --global user.email ncbatys@cyf-kr.edu.pl
+  233  git config --global core.editor 'nano -w'
+  234  git config -l
+  235  cd
+  236  mkdir planet
+  237  mkdir planets
+  238  rmdir planet
+  239  cd planets/
+  240  pwd
+  241  ls -a
+  242  git init
+  243  ls -a
+  244  ls .git/
+  245  ls .git/config 
+  246  at .git/config 
+  247  cat .git/config 
+  248  git status 
+  249  nano mars.txt
+  250  ls
+  251  git status 
+  252  git add mars.txt
+  253  git status 
+  254  git commit
+  255  git status 
+  256  ls
+  257  git log
+  258  nano mars.txt 
+  259  git status
+  260  git diff
+  261  git commit
+  262  git commit -a -m 'Dodanie informacji o kolorze'
+  263  git status 
+  264  git log
+  265  git diff
+  266  nano mars.txt 
+  267  git diff
+  268  nano mars.txt 
+  269  git diff
+  270  nano mars.txt 
+  271  git diff
+  272  git add mars.txt
+  273  git add mars.txt cat mars.txt
+  274  cat mars.txt 
+  275  git diff
+  276  git diff --staged 
+  277  nano linijki.txt
+  278  for i in {1..10}; do echo "to jest linijka $1" .. liniki.txt ; done
+  279  git status 
+  280  ls
+  281  for i in {1..10}; do echo "to jest linijka $1" .. liniki.txt ; done
+  282  for i in {1..10}; do echo "to jest linijka $1" >> liniki.txt ; done
+  283  ls
+  284  git status 
+  285  git add liniki.txt
+  286  git commit -m 'dodanie pliku linijki'
+  287  git status 
+  288  nano liniki.txt 
+  289  git diff
+  290  git commit -a -m 'usuniecie linijki'
+  291  git log
+  292  nano mars.txt liniki.txt 
+  293  git diff
+  294  git commit -a -m 'w mars.txt - dodanie lini a linii jest wiecej'
+  295  git diff
+  296  git diff HEAD~1 mars.txt
+  297  git log -- mars.txt
+  298  git log mars.txt
+  299  history > hist_day2_1.dat
